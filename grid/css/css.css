@@ -1,6 +1,6 @@
 body {
-  background: #f0f3f5;
-  color: #fff;
+  background: #fff;
+  color: rgba(255, 255, 255, 0.76);
 }
 
 header {
@@ -14,8 +14,8 @@ header {
 }
 /* Segunda seccion*/
 main {
-  background: #fff;
-  color:#424242;
+  background: #cacfed;
+  color: #424242;
   padding: 20px 0;
 }
 
@@ -23,4 +23,19 @@ aside {
   background: #dee5e8;
   padding: 60px 0;
   color: #0d47a1;
+}
+
+.widgets {
+  margin-bottom: 20px;
+}
+
+.widgets > div {
+  background: #2196f3;
+  color: #fff;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px 0;
+  background: #1e1e1e;
 }
